@@ -16,7 +16,10 @@ async.waterfall(
     }
   ],
   (err, result) => {
-    if (err) console.error(err);
+    if (err) {
+      console.error(err);
+      return;
+    }
     console.log(result);
   }
 );
