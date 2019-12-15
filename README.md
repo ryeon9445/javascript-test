@@ -1,6 +1,6 @@
 # javascript-test
 
-## config 모듈 사용해보기
+## config module
 
 > test-config.js
 
@@ -17,4 +17,14 @@ production 환경의 데이터 불러오기
 
 ```
 NODE_ENV=production node ./bin/test-config.js
+```
+
+## async waterfall
+
+> test-async-waterfall.js
+
+여러개의 함수를 순차적으로 처리한다.
+
+```
+node ./bin/test-async-waterfall.js
 ```

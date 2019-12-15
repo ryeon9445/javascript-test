@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ryeon9445/javascript-test#readme",
   "dependencies": {
+    "async": "^3.1.0",
     "config": "^3.2.4"
   }
 }
