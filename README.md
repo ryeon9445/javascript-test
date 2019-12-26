@@ -28,3 +28,13 @@ NODE_ENV=production node ./bin/test-config.js
 ```
 node ./bin/test-async-waterfall.js
 ```
+
+## new Promise
+
+> test-new-promise.js
+
+비동기 함수를 동기식으로 처리
+
+```
+node ./bin/test-new-promise.js
+```
