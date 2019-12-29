@@ -38,3 +38,13 @@ node ./bin/test-async-waterfall.js
 ```
 node ./bin/test-new-promise.js
 ```
+
+## redis commands parse
+
+> test-redis-commands-parse.js
+
+redis.io 페이지에 있는 명령어 목록 파싱해보기
+
+```
+node ./bin/test-redis-commands-parse.js
+```
